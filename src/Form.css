@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: auto;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, orange, gold, yellow);
+
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3em;
+  color: black;
+    
+}
+
+.Container {
+    width: 80%;
+    margin: 30px auto;
+    background-Color: #f0f0f0;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+  
+  label {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input,select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    text-align: center;
+    grid-column: span 3;
+  }
+  
+  button {
+    padding: 20px 20px;
+    width: 30%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: green;
+  }
+  
